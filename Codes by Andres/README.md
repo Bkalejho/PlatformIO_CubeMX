@@ -1,2 +1,2 @@
-# PlatformIO_CubeMX
-This is a repository with projects and information about developments builds on stm32f4 microcontrollers, PlatformIO and CUBEMX
+# Codes by Andres
+this is the repository for the codes by Andres
