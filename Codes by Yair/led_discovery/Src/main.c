@@ -97,8 +97,14 @@ int main(void)
   while (1)
   {
     HAL_GPIO_WritePin(GPIOD, GPIO_PIN_12, 1);
+    HAL_GPIO_WritePin(GPIOD, GPIO_PIN_13, 1);
+    HAL_GPIO_WritePin(GPIOD, GPIO_PIN_14, 1);
+    HAL_GPIO_WritePin(GPIOD, GPIO_PIN_15, 1);
     HAL_Delay(100);
     HAL_GPIO_WritePin(GPIOD, GPIO_PIN_12, 0);
+    HAL_GPIO_WritePin(GPIOD, GPIO_PIN_13, 0);
+    HAL_GPIO_WritePin(GPIOD, GPIO_PIN_14, 0);
+    HAL_GPIO_WritePin(GPIOD, GPIO_PIN_15, 0);
     HAL_Delay(100);
     /* USER CODE END WHILE */
 
